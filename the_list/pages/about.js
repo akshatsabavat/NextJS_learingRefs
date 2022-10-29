@@ -1,9 +1,9 @@
 import React from "react";
 
-const index = () => {
+const About = () => {
   return (
     <div>
-      <h1>HomePage</h1>
+      <h1>About Page</h1>
       <p>
         Lorem ipsum is a placeholder text commonly used to demonstrate the
         visual form of a document or a typeface without relying on meaningful
@@ -26,4 +26,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default About;
