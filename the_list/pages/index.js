@@ -1,8 +1,10 @@
 import React from "react";
+import { Navbar, Footer } from "../components";
 
 const index = () => {
   return (
     <div>
+      <Navbar />
       <h1>HomePage</h1>
       <p>
         Lorem ipsum is a placeholder text commonly used to demonstrate the
@@ -22,6 +24,7 @@ const index = () => {
         webpage or publication, without the meaning of the text influencing the
         design.
       </p>
+      <Footer />
     </div>
   );
 };
